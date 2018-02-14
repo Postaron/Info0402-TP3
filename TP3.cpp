@@ -5,8 +5,6 @@
 #include "Disc.h"
 #include "SVGstream.h"
 
-class Disc;
-
 int main(int argc, char *argv[]) {
 	if (argc != 2) {
 		std::cerr << "Erreur : nombre d'argument incorrect ! " << std::endl;

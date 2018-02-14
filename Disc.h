@@ -7,6 +7,11 @@ class Disc: public Surface {
 public:
 	Disc(int x, int y, int r, Color c);
 	virtual ~Disc();
+	double aire() final;
+	void info() final;
+	void Translate(int x, int y) final;
+	void Rotate(int angle) final;
+	void Scale(float x, float y) final;
 
 private:
 	int r;

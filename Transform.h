@@ -3,10 +3,10 @@
 
 class Transform {
 public:
-	virtual void Rotate() = 0;
-	virtual void Translate() = 0;
-	virtual void Scale() = 0;
-	virtual ~Transform() = 0;
+	virtual void Rotate(int angle) = 0;
+	virtual void Translate(int x, int y) = 0;
+	virtual void Scale(float x, float y) = 0;
+	virtual ~Transform();
 };
 
 #endif /* TRANSFORM_H_ */

@@ -33,6 +33,12 @@ mrproper:	clean
 # DO NOT DELETE THIS LINE
 
 Color.o: Color.h
+Disc.o: Disc.h Surface.h FillProperty.h Color.h Geom2D.h Transform.h
+Geom2D.o: Geom2D.h Transform.h
+Transform.o: Transform.h
 SVGstream.o: SVGstream.h
+Surface.o: Surface.h FillProperty.h Color.h Geom2D.h Transform.h
 Point.o: Point.h
+TP3.o: Color.h Disc.h Surface.h FillProperty.h Geom2D.h Transform.h
 TP3.o: SVGstream.h
+FillProperty.o: FillProperty.h Color.h
